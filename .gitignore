@@ -39,3 +39,45 @@
 
 # debug information files
 *.dwo
+
+# Build & bin
+/build/
+/bin/
+/out/
+/dist/
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+
+# CMake / Make
+/CMakeFiles/
+/CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Mesh & results
+meshes/*.msh
+results/*
+!results/.gitkeep
+
+# Plots / data
+*.csv
+*.vtk
+*.vtu
+
+# Logs
+*.log
